@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2024
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DebtDetermination", "DebtDetermination\DebtDetermination.csproj", "{6D686BDC-B857-42CF-8FC6-145ADF81BA5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DebtDetermination.Tests", "DebtDetermination.Tests\DebtDetermination.Tests.csproj", "{2B5CE676-4FA3-48C4-B2AF-0C6E7A249EC6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6D686BDC-B857-42CF-8FC6-145ADF81BA5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D686BDC-B857-42CF-8FC6-145ADF81BA5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D686BDC-B857-42CF-8FC6-145ADF81BA5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D686BDC-B857-42CF-8FC6-145ADF81BA5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B5CE676-4FA3-48C4-B2AF-0C6E7A249EC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B5CE676-4FA3-48C4-B2AF-0C6E7A249EC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B5CE676-4FA3-48C4-B2AF-0C6E7A249EC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B5CE676-4FA3-48C4-B2AF-0C6E7A249EC6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {335ACA4B-2E01-4023-A6A9-8623DA083D0E}
+	EndGlobalSection
+EndGlobal
