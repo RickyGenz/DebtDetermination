@@ -99,6 +99,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\DebtDetermination.Shared\DebtDetermination.Shared.csproj">
+      <Project>{1e0b56ab-c6f3-4c63-8eae-b301beefa048}</Project>
+      <Name>DebtDetermination.Shared</Name>
+    </ProjectReference>
     <ProjectReference Include="..\DebtDetermination\DebtDetermination.csproj">
       <Project>{6D686BDC-B857-42CF-8FC6-145ADF81BA5B}</Project>
       <Name>DebtDetermination</Name>
