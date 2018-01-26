@@ -11,7 +11,7 @@ namespace DebtDetermination.Tests.Models
         Transaction Transaction;
 
         [TestInitialize]
-        public void InstantiatePerson()
+        public void InstantiateTransaction()
         {
             Name = "Pi";
             Amount = 3.14m;
