@@ -21,6 +21,7 @@ namespace DebtDetermination.Tests.Models
         public void TransactionTypeHasName()
         {
             Assert.AreEqual(Name, TransactionType.Name);
+            Assert.IsInstanceOfType(TransactionType.Name, typeof(string));
         }
 
         [TestMethod]

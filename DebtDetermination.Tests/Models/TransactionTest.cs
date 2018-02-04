@@ -25,24 +25,21 @@ namespace DebtDetermination.Tests.Models
         public void TransactionHasName()
         {
             Assert.AreEqual(Name, Transaction.Name);
+            Assert.IsInstanceOfType(Transaction.Name, typeof(string));
         }
 
         [TestMethod]
         public void TransactionHasAmount()
         {
             Assert.AreEqual(Amount, Transaction.Amount);
+            Assert.IsInstanceOfType(Transaction.Amount, typeof(decimal));
         }
 
         [TestMethod]
         public void TransactionHasType()
         {
             Assert.AreEqual(Type, Transaction.Type);
-        }
-
-        [TestMethod]
-        public void TransactionAmountIsDecimal()
-        {
-            Assert.IsInstanceOfType(Transaction.Amount, typeof(decimal));
+            Assert.IsInstanceOfType(Transaction.Type, typeof(TransactionType));
         }
     }
 }

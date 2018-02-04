@@ -20,6 +20,7 @@ namespace DebtDetermination.Tests.Models
         public void PersonHasName()
         {
             Assert.AreEqual(Name, Person.Name);
+            Assert.IsInstanceOfType(Person.Name, typeof(string));
         }
     }
 }

@@ -96,6 +96,7 @@
     <Compile Include="Models\TransactionTest.cs" />
     <Compile Include="Models\TransactionTypeTest.cs" />
     <Compile Include="Models\TransactionBorrowerTest.cs" />
+    <Compile Include="Models\TransactionLenderTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Controllers\HomeControllerTest.cs" />
   </ItemGroup>
