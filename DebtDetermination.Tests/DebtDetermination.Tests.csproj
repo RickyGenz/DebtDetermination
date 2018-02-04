@@ -89,6 +89,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Mocks\MockTransactionType.cs" />
     <Compile Include="Models\PersonTest.cs" />
     <Compile Include="Models\TransactionTest.cs" />
     <Compile Include="Models\TransactionTypeTest.cs" />

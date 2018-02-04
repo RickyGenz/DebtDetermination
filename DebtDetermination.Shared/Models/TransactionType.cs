@@ -12,5 +12,6 @@ namespace DebtDetermination.Shared.Models
             this.Name = name;
             this.Transactions = new List<Transaction>();
         }
+        public TransactionType() { }
     }
 }

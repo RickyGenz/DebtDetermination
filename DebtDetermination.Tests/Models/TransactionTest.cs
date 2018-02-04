@@ -1,4 +1,5 @@
 ﻿using DebtDetermination.Shared.Models;
+using DebtDetermination.Tests.Mocks;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace DebtDetermination.Tests.Models
@@ -8,6 +9,7 @@ namespace DebtDetermination.Tests.Models
     {
         string Name;
         decimal Amount;
+        MockTransactionType Type;
         Transaction Transaction;
 
         [TestInitialize]
@@ -15,7 +17,8 @@ namespace DebtDetermination.Tests.Models
         {
             Name = "Pi";
             Amount = 3.14m;
-            Transaction = new Transaction(Name, Amount);
+            Type = new MockTransactionType();
+            Transaction = new Transaction(Name, Amount, Type);
         }
 
         [TestMethod]
@@ -28,6 +31,18 @@ namespace DebtDetermination.Tests.Models
         public void TransactionHasAmount()
         {
             Assert.AreEqual(Amount, Transaction.Amount);
+        }
+
+        [TestMethod]
+        public void TransactionHasType()
+        {
+            Assert.AreEqual(Type, Transaction.Type);
+        }
+
+        [TestMethod]
+        public void TransactionAmountIsDecimal()
+        {
+            Assert.IsInstanceOfType(Transaction.Amount, typeof(decimal));
         }
     }
 }
