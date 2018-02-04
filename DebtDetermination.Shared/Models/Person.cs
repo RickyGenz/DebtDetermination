@@ -8,5 +8,6 @@
         {
             this.Name = name;
         }
+        public Person() { }
     }
 }
